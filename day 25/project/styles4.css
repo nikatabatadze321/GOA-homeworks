@@ -1,23 +1,15 @@
-
-h1{
-    color:darkblue;
-}
 body{
     background-image:url(central\ park.PNG);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;}
+    background-size: cover;
+}
 
 #box1{
-    
-    padding-left: 500px;
-    padding-top: 50px;
-}
-#box2{
     margin-top: 170px;
     width: 320px;
-    height: 320px;
+    height: 240px;
     font-size: 25px;
     margin-left: 550px;
     border:5px solid;
