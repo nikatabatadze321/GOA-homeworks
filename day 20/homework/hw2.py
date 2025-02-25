@@ -3,4 +3,4 @@ i = 1
 while i < 20:
     if i != 5 and i != 15 :
      print(i)
-    i + 1 = i 
+    i=1+i 
