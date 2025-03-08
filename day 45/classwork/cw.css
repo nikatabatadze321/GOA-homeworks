@@ -1,0 +1,16 @@
+#box1{
+    padding: 20px ;
+}
+#box2{
+    margin: 30px ;
+    
+    
+}
+#box3{text-align: center;}
+
+#box4{
+    margin-left: 1px;
+    border-color: red;
+    border-width: 5px;
+}
+
