@@ -1,1 +1,1 @@
-#codewars cw
+#cw 50 
