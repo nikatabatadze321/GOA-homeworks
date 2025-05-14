@@ -1,0 +1,30 @@
+#box1{
+    position: absolute;
+    text-decoration: underline blue;
+    font-size: 20px;
+    left: 100px;
+    top: 25px;
+}
+.words{
+    position:absolute;
+    left: 100px;
+    top: 75px;
+}
+.first{
+    position: relative;
+    text-decoration: overline yellow;
+    color: green;
+    font-size: 20px;
+}
+.second{
+    position: relative;
+    text-decoration: line-through purple;
+    color: blue;
+    font-size: 20px;
+}
+.third{
+    position: relative;
+    text-decoration: underline green;
+    font-size: 20px;
+    color: red;
+}
