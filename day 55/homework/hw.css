@@ -1,0 +1,93 @@
+.container{
+    position: absolute;
+    width: 1500px;
+    height: 1000px;
+    border: 3px solid black;
+}
+.img1{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    text-align: contain ;
+    font-size: 20px;
+    background-image: url(capri1.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    top: 150px;
+    left: 150px;
+    filter: blur(1px);
+
+
+}
+.capri{
+    position: relative;
+    color: wheat;
+    font-size: 20px;
+    left: 250px;
+    bottom: 150px;
+}
+.img2{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    text-align: contain;
+    font-size: 20px;
+    background-image: url(florence.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    left: 150px;
+    filter: blur(1px);
+
+
+}
+.florence{
+    position:absolute;
+    font-size: 20px;
+    color: wheat;
+    top: 550px;
+    left: 250px;
+}
+.img3{
+    background-image: url(milan.PNG);
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    top: 164px;
+    left: 500px;
+    
+    
+
+}
+.milan{
+    position: relative;
+    font-size: 20px;
+    top: 105px;
+    left: 100px;
+    color:white;
+    
+
+}
+.img4{
+    position:absolute;
+    background-image: url(roma.PNG);
+    width: 250px;
+    height: 280px;
+    background-size: cover;
+    left: 815px;
+    top: 155px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}
+.rome{
+    position: absolute;
+    font-size: 20px;
+    left: 915px;
+    top: 252px;
+    color:white;
+}

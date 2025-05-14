@@ -1,0 +1,29 @@
+.img{
+    background-image: url(img.PNG);
+    background-size: 1000px;
+    
+    
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid black;
+   
+}
+.head{
+    position: absolute;
+    color: white;
+    left: 450px;
+    top : 30px;
+}
+.text{
+    position: relative;
+    font-size: 20px;
+    color: black;
+    top: 450px;
+    text-align: center;
+}
+.button{
+    position: relative;
+    top :500px;
+    left: 800px;
+}

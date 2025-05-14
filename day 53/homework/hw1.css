@@ -1,0 +1,43 @@
+.header{
+    position: fixed;
+    text-align: center;
+    width: 1500px;
+    height: 200px;
+    background-color: black;
+    top: 25px;
+    left: 20px;
+    z-index: 5;
+
+
+}
+.title{
+    position: relative;
+    color: white;
+    z-index: 1;
+    font-size: 24px;
+
+}
+.block{
+    background-color: rgb(100, 97, 97);
+    width: 500px;
+    height: 700px;
+    position: relative;
+    top: 220px;
+    left: 500px;
+    z-index: 2;
+}
+.pic{
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+.name{
+    font-size: 20px;
+    color: white;
+}
+.body{
+    background-color: blue;
+    position: absolute;
+    height: 1000vh;
+    width: 1000vh;
+}
