@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0 40px 40px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f8ff; 
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/ee/%E1%83%90%E1%83%AD%E1%83%90%E1%83%A0%E1%83%90.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 38, 66, 0.55); 
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #00bcd4; 
+    animation: slideDownFade 1.5s ease forwards;
+    text-shadow: 1px 1px 6px rgba(0, 188, 212, 0.8);
+}
+
+.highlight {
+    background-color: rgba(0, 77, 120, 0.4); 
+    border-left: 8px solid #00acc1;
+    padding: 20px 30px;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #b2ebf2;
+    box-shadow: 0 0 15px #26c6da;
+    animation: fadeIn 2.5s ease forwards;
+}
+
+h2 {
+    color: #4dd0e1; 
+    border-bottom: 2px solid #0097a7;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease forwards;
+    text-shadow: 0 0 4px rgba(0, 150, 167, 0.6);
+}
+
+p, ul {
+    background-color: rgba(0, 48, 73, 0.35); 
+    padding: 15px 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #e0f7fa;
+    animation: fadeIn 3s ease forwards;
+    box-shadow: 0 0 10px #00bcd4;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+strong {
+    color: #00acc1; 
+    cursor: pointer;
+    display: inline-block;
+    transition: color 0.4s ease, transform 0.4s ease;
+}
+
+strong:hover {
+    color: #80deea;
+    transform: scale(1.15) rotate(3deg);
+    text-shadow: 0 0 8px #80deea;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1, .highlight, h2, p, ul {
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    animation-delay: 0.3s;
+}
+
+.highlight {
+    animation-delay: 1.3s;
+}
+
+h2 {
+    animation-delay: 2.5s;
+}
+
+p, ul {
+    animation-delay: 3.5s;
+}
+
+body > * {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body, h1, .highlight, h2, p, ul {
+    animation-duration: 1.2s;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+p:hover, 
+h1:hover, 
+h2:hover, 
+li:hover, 
+.highlight:hover {
+    color: #4dd0e1;
+    transform: scale(1.05); 
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+    text-shadow: 0 0 5px #80deea;
+}
+
+p, h1, h2, li, .highlight {
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}

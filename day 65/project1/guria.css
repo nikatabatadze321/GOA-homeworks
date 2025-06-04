@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0 40px 40px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0e8; 
+    background: url('https://upload.wikimedia.org/wikipedia/commons/a/a6/Guria%2C_Region_in_Georgia.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(10, 40, 20, 0.6); 
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #d0f0c0;
+    animation: slideDownFade 1.5s ease forwards;
+}
+
+.highlight {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-left: 8px solid #9dd47f;
+    padding: 20px 30px;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #d0f0c0;
+    box-shadow: 0 0 15px #a9d48f;
+    animation: fadeIn 2.5s ease forwards;
+}
+
+h2 {
+    color: #b0e090;
+    border-bottom: 2px solid #7ab57d;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease forwards;
+}
+
+p, ul {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 15px 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    animation: fadeIn 3s ease forwards;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+strong {
+    color: #d0f0c0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1, .highlight, h2, p, ul {
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    animation-delay: 0.3s;
+}
+
+.highlight {
+    animation-delay: 1.3s;
+}
+
+h2 {
+    animation-delay: 2.5s;
+}
+
+p, ul {
+    animation-delay: 3.5s;
+}
+
+body > * {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body, h1, .highlight, h2, p, ul {
+    animation-duration: 1.2s;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+p:hover, 
+h1:hover, 
+h2:hover, 
+li:hover, 
+.highlight:hover {
+    color: #a0d68c;
+    transform: scale(1.05); 
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+    text-shadow: 0 0 5px #c2f0a4;
+}
+
+p, h1, h2, li, .highlight {
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}

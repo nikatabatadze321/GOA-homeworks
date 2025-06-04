@@ -1,0 +1,241 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-mikheil-stefane/css/bpg-mikheil-stefane.min.css");
+
+
+
+
+
+body{
+    background-image: url(buneba.jpg);
+    background-size: cover;      
+    background-position: center;   
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    width: 100vw;                 
+    height: 100vh;                 
+    margin: 0;
+    padding: 0;
+    position: fixed;
+
+}
+.satauri{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: rgb(5, 179, 248);
+    border: 10px;
+    font-family: "BPG Mikheil Stefane", sans-serif;
+
+
+}
+
+
+
+.hovertext {
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(145deg, rgb(128, 0, 111), blue); 
+    color: hsl(0, 0%, 100%);
+    padding: 10px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease, font-size 0.3s ease;
+    z-index: 10;
+    box-shadow: 10px 20px 40px black;
+    font-family: "BPG Mikheil Stefane", sans-serif;
+    
+}
+
+a:hover .hovertext {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px); 
+    font-size: 30px;
+}
+
+/* afxazeti */
+.afxazeti {
+    width: 370px;
+    position: absolute;
+    top: 8%;
+    left: 6.7%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.afxazeti:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+/* guria */
+
+.guria {
+    width: 210px;
+    position: absolute;
+    top: 49.8%;
+    left: 22.8%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.guria:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+/* ajara */
+
+.ajara {
+    width: 210px;
+    position: absolute;
+    top: 59.1%;
+    left: 21.5%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.ajara:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+
+
+/* samegrelo */
+
+.samegrelo{
+    width: 345px;
+    position: absolute;
+    top: 19%;
+    left: 20.7%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+    
+}
+.samegrelo:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+
+/* raja */
+
+.raja {
+    width: 297px;
+    position: absolute;
+    top: 28.7%;
+    left: 31%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.raja:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+/* imereti */
+
+.imereti {
+    width: 300px;
+    position: absolute;
+    top: 40.4%;
+    left: 29.5%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.imereti:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+/* samcxe javaxeti */
+
+.samcxe_javaxeti {
+    width: 300px;
+    position: absolute;
+    top: 58.7%;
+    left: 28.8%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.samcxe_javaxeti:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+/* shidaqartli */
+
+.shidaqartli {
+    width: 233px;
+    position: absolute;
+    top: 39.1%;
+    left: 40.9%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.shidaqartli:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+/* qvemoqartli */
+
+
+.qvemoqartli {
+    width: 330px;
+    height: auto;
+    position: absolute;
+    top: 55.8%;
+    left: 40.6%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.qvemoqartli:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+/* mcxetamtianeti */
+
+
+.mcxetamtianeti {
+    width: 210px;
+    height: auto;
+    position: absolute;
+    top: 33.6%;
+    left: 49%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.mcxetamtianeti:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+
+/* kaxeti */
+
+.kaxeti {
+    width: 330px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 52.5%;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.kaxeti:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}

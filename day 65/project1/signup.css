@@ -1,0 +1,105 @@
+body{
+    background-image: url(tbilisi.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    color: orangered;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: -12px;
+
+}
+.form{
+    background-position: center;
+    width: 250px;
+    height: 440px;
+    margin: 200px;
+    margin-top: 150px;
+    margin-left: 600px;
+    padding: 15px;
+    border: 1px solid black;
+    
+    border-radius: 15px;
+    background: linear-gradient(to top , rgb(189, 186, 186) 50%);
+}
+.form input{
+    width: 200px;
+    height: 25px;
+    background: transparent;
+    padding: 16px;
+    margin-left: 7px;
+    margin-top: 25px;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+.form input:focus{
+    outline: none;
+}
+
+
+::placeholder{
+    color: white;
+}
+
+
+.text{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    left: 670px;
+    top: 85px;
+    font-family:fantasy;
+}
+.eng{
+    position: absolute;
+    font-size: 20px;
+    top: 280px;
+    left: 500px;
+    z-index: 100;
+}
+.btn{
+    position: absolute;
+    top: 520px;
+    left: 650px;
+    width: 200px;
+    height: 60px;
+    background: orangered;
+    border: 2px orangered;
+    text-align: center;
+    
+    
+    
+    border-radius: 15px;}
+    
+
+    
+    
+.btnn{
+    margin-top: 15px;
+    background-color: orangered;
+    
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.btnn:hover{
+    color: white;
+}
+.txt4{
+    position: absolute;
+    font-size: 10px;
+    top: 75px;
+    left: 25px;
+}
