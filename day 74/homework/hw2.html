@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .parent{
+            position: relative;
+            top: 150px;
+            display: grid;
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            grid-template-columns: 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px;
+            gap: 1px;
+            align-items: center;
+            justify-content: center;
+        }
+        .child{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+            height: 50px;
+            width: 50px;
+            background-color: green;
+            top: 120px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--შექმენით ერთ დიდი დივი,შიგნით შექმენი 9 დივი და გადაანაწილე ეს დივები 3 როუზე და 3 ქოლუმნზე,მთლიანი კონტენტი(გრიდი) 
+    გადმოიტანეთ მშობელი ელემენტის შუაში,ამ შვილ დივებს მიეცით ფიქსირებული ზომები და ეს შვილი დივებიც გაცენტრეთ გრიდში,ასევე ამ
+    შვილ ელემენტებშ ჩაწერეთ რაიმე ტექსტი და ეს ტექსტიც გაცენტრეთ(მოკლედ ყველაფერი უნდა იყოს ცენტრში,დაწყებული მშობელი ელემენტებით
+    დამთავრებული შვილი და შვილიშვილი ელემენტებით დამთავრებული-->
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+        <div class="child">9</div>
+    </div>
+
+</body>
+</html>
